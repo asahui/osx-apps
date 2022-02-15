@@ -1,0 +1,8 @@
+[Unit]
+Description=KDE Daemon
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/Users/packaging/Craft/BinaryFactory/macos-64-clang/bin/kded5
+BusName=org.kde.kded5
+Slice=session.slice
